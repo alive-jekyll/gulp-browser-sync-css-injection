@@ -8,6 +8,6 @@ gulp.task('browser-sync', function() {
             baseDir: "./"
         }
     });
-
+    // css file is in the same level with your html
     gulp.watch("*.css").on('change', browserSync.reload);
 });
